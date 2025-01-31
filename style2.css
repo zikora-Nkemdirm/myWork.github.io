@@ -1,0 +1,33 @@
+:root{
+    --bg-light-orange:#ffcb74;
+    --bg-whitish-grey:#f6f6f6;
+    --bg-light-black:#2f2f2f;
+}body{
+    background:linear-gradient(var(--bg-light-black),var(--bg-whitish-grey));
+}
+
+.navbar-dark{
+    background-color: var(--bg-light-orange);
+    background: var(--bg-light-orange);
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.card-body{
+    background-image: url(../img/gencraft_image_1692530523991.png);
+    height: 40%;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+   }
+}

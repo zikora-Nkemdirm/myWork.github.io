@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bg-light-orange:#ffcb74;
+    --bg-whitish-grey:#f6f6f6;
+    --bg-light-black:#2f2f2f;
+}
+body{
+    background: linear-gradient(var(--bg-light-orange),var(--bg-whitish-grey));
+    background-size: 100%;
+    background-position: auto;
+    background-repeat: no-repeat;
+}
